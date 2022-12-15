@@ -1,10 +1,10 @@
 # State Management
 
-[] Redux
-[x] MobX
-[] Zustand
-[] Jotai
-[] Recoil
-[x] useContextSelector
+- [ ] Redux
+- [x] MobX
+- [ ] Zustand
+- [ ] Jotai
+- [ ] Recoil
+- [x] useContextSelector
 
 <img src="./src/assets/StateManagement.png"/>
