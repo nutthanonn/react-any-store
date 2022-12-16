@@ -1,15 +1,17 @@
 import React from "react";
 import MobxCounter from "./components/MobxCounter";
+import ReduxCounter from "./components/ReduxCounter";
 import UseContextSelectorCounter from "./components/UseContextSelectorCounter";
-import Provider from "./provider/Provider";
+import AppProvider from "./provider/AppProvider";
 import { mobxStore } from "./store/mobxStore";
 
 const App: React.FC = () => {
   return (
-    <Provider>
+    <AppProvider>
       <UseContextSelectorCounter />
       <MobxCounter store={mobxStore} />
-    </Provider>
+      <ReduxCounter />
+    </AppProvider>
   );
 };
 

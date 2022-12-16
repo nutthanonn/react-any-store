@@ -4,7 +4,9 @@ import {
   useValue,
 } from "../store/useContextSelectorCounterStore";
 
-const Provider: React.FC<{ children: React.ReactNode }> = (props) => {
+const UseContextSelectorProvider: React.FC<{ children: React.ReactNode }> = (
+  props
+) => {
   const [state, dispatch] = useValue();
 
   return (
@@ -14,4 +16,4 @@ const Provider: React.FC<{ children: React.ReactNode }> = (props) => {
   );
 };
 
-export default Provider;
+export default UseContextSelectorProvider;
