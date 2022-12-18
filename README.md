@@ -1,6 +1,6 @@
 # State Management
 
-- [ ] Redux
+- [x] Redux
 - [x] MobX
 - [ ] Zustand
 - [ ] Jotai
