@@ -2,7 +2,7 @@
 
 - [x] Redux
 - [x] MobX
-- [ ] Zustand
+- [x] Zustand
 - [ ] Jotai
 - [ ] Recoil
 - [x] useContextSelector
